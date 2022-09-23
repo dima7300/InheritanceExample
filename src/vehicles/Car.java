@@ -1,6 +1,6 @@
 package vehicles;
 
-public class Car extends Object {
+public abstract class Car extends Object {
    protected String model;
    protected String category;
    protected Integer maxspeed;
@@ -14,4 +14,6 @@ public class Car extends Object {
     public void getTime (Integer distance){
         System.out.println(distance / maxspeed);
     }
+
+    public abstract void test(String str);
 }

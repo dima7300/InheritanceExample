@@ -17,4 +17,9 @@ public class ElectricityCar extends Car {
         }
 
     }
+
+    @Override
+    public void test(String str) {
+        System.out.println("Hello from abstarct method!");
+    }
 }

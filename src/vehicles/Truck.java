@@ -6,4 +6,13 @@ public class Truck extends Car  {
         super(model, category, maxspeed);
         this.loadCapacity = loadCapacity;
     }
+
+    @Override
+    public void test(String str) {
+        System.out.println("Hello from Truck!");
+    }
+
+    public void truckMethod(){
+        System.out.println("Hello from truck method");
+    }
 }
